@@ -9,9 +9,14 @@
 <body>
     <div class="container">
         <h1>Start a Session</h1>
-        <button id="startSessionButton">Start Session</button>
+        <!-- Button for Starting the Session -->
+        <a href="#" id="startSurfly" onclick="startCobrowsing()">Start Co-browsing</a>
         <p id="sessionStatus">Session not started</p>
     </div>
+    <!-- Surfly Integration -->
+    <script async src="https://surfly.com/surfly.js"></script>
+    <iframe id="surfly-api-frame" name="surfly-api-frame" class="surfly-invisible" scrolling="no"></iframe>
+    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmldlmhmodkjdmb"></div>
     <script src="script.js"></script>
 </body>
 </html>
